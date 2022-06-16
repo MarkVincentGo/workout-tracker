@@ -1,0 +1,19 @@
+User {
+  id
+  name
+  workouts [
+    {
+      id
+      name
+      history [
+        {
+          id
+          date
+          weight
+          reps
+          effort
+        }
+      ]
+    }
+  ]
+}
