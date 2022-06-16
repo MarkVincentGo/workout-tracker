@@ -6,7 +6,7 @@ const { addUserWorkout, deleteUserWorkout } = require('./src/userWorkouts');
 const { addWorkout, readWorkout, readAllWorkouts } = require('./src/workout');
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 8080;
 
 app.use(morgan('dev'));
 app.use(express.json());
