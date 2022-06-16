@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "backend for workout app",
-  "main": "index.js",
+  "main": "server.js",
   "author": "MarkVincentGo",
   "license": "MIT",
   "dependencies": {
@@ -11,5 +11,8 @@
     "moment": "^2.29.3",
     "morgan": "^1.10.0",
     "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
